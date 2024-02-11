@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container { 
+    width: 620px;
+    height: 500px;
+    border: 1px solid;
+    
+}
+
+.block-input input{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-left: 15px;
+    font-size: large;
+    border: 0.5px solid hsl(0, 2%, 91%);
+    background-color: #F5F5F5;
+
+}
+
+.shearch-input input{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 50px;
+    padding-left: 15px;
+    font-size: large;
+    border: 0.5px solid hsl(0, 2%, 91%);
+    background-color: #F5F5F5;
+
+}
+
+.img-border {
+    border: 2px solid aqua;
+    border-radius: 20px;
+    padding: 5px;
+    display: inline-block; 
+}
+
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.message {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.icone {
+    font-size: 20px;
+}
+
+.icone-ideal {
+    color: green;
+}
+
+.icone-sobrepeso {
+    color: red;
+}
+
+
+.block-checkbox{
+    font-size: medium;
+    border: none;
+}
+
+.block-checkbox label{
+    line-height: 50px;
+    margin-left: 5px;
+    color: gray;
+}
+
+.block-checkbox input { 
+    margin-top: 30px;
+    border-radius: 2px;
+    border: 0.5px solid hsl(0, 2%, 91%);
+    background-color: #F5F5F5;
+    display: inline-block;  
+}
+
+.block-button{
+    margin-top: 20px;
+}
+
+.block-button button{
+    border-radius: 50px;
+    padding: 10px 20px;
+    background-color: aqua;
+    border-radius: 20%;
+    border: 5px solid aqua;
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 16px; 
+}
+
+.input-position{
+    width: 80%;
+    margin: 2% auto;
+}
+
+
+.center { 
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-colum{
+    flex-direction: column;
+}
+
+
+.flex-row{
+    flex-direction: row;
+}
+
+flex-center{
+    justify-content: center;
+}
+
+.width100{
+    width: 100%;
+}
+
+.width80{
+    width: 80%;
+}
+
+.header-top{
+    padding-top: 20px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.padding5{
+    padding: 5px;
+}
+
+.bblue{
+    background-color: blue;
+}
+.bred{
+    background-color: red;
+}
+.icone-img {
+    width: 50px; 
+    height: 50px; 
+    background-color: #F6F6F6; 
+    padding: 10px; 
+    margin: 10px;
+    border-radius: 5px; 
+}
