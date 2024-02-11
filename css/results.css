@@ -31,9 +31,9 @@ body {
 
 .container-logo {
   width: 8%;
-  /* display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
   position: relative;
   height: 100%;
 }
@@ -93,6 +93,10 @@ body {
 }
 .icon-peso-verde {
   background: rgb(13, 206, 13);
+}
+.icon-peso-vermelho {
+  background: red;
+  border-radius: 50%;
 }
 .container-content-result-popup h4 span {
   align-items: center;
