@@ -5,8 +5,10 @@
 }
 
 .container { 
-    width: 620px;
+    width: 80%;
     height: 500px;
+    min-width: 350px;
+    max-width: 600px;
     border: 1px solid;
     
 }
@@ -46,9 +48,18 @@
     margin-top: 20px;
 }
 
-.block-button button{
+.bg-aqua{
     background-color: aqua;
-    border-radius: 20%;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.block-button button{
+    font-size: 16px;
+    height: 50px;
+    border-radius: 35px;
     border: 5px solid aqua;
 }
 .input-position{
