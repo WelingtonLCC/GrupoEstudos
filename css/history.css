@@ -4,9 +4,14 @@
 }
 .container-fluid { 
     width: 100%;
-    border: 1px solid;
     box-sizing: border-box;
 }
+@media (min-width: 769px) {
+    .container-fluid { 
+        width: 450px;
+        margin: 0 auto;
+    }
+  }
 .logo-imc {
     width: 95px;
     height: 95px;
@@ -76,4 +81,8 @@
     padding: 10px;
     border-radius: 20px;
     box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+.form-control:hover, .form-control:focus {
+    border-color: #45FEFE;
 }

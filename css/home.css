@@ -8,9 +8,7 @@
     width: 80%;
     height: 500px;
     min-width: 350px;
-    max-width: 600px;
-    border: 1px solid;
-    
+    max-width: 600px;   
 }
 
 .block-input input{
