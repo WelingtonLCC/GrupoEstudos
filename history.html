@@ -5,17 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="../css/splash.css">
     <title>History</title>
 </head>
 
-<body>
+<body class="fundo">
     <div class="container center flex flex-colum padding5">
         <div class="text-center header-top"> 
             <div class="img-border">
                 <img src="assets/icon-no-bg.png" alt="logo" width="95" height="95">
             </div>
-        
-            <h2>História</h2>
+
+            <div class="header-top center py-1">
+            <h1>História</h1>
         </div>
 
         <div class="width100 ">
@@ -26,26 +28,31 @@
                     </div>
             </form>
 
-            <div class="flex">
-                <div class="flex flex-colum icone-img ">
-                </div>
-                <div class="flex flex-colum">
-                    <div class="title">
-                        Peso Ideal <span class="icone icone-ideal">✅</span>
+            <div class="box-blocos">
+                <div class="py-1 bloco-item flex">
+                    <div class="bloco-q"></div>
+                    <div class="pl-1 width100">
+                        <div class="flex justify-between mb-05">
+                            <h4 class="flex">Peso ideal <span class="icon-peso icon-peso-verde">&#10003;</span></h4>
+                            <span class="tempo">8m atrás</span>
+                        </div>
+                        <div>
+                            <p style="text-align: left;">Parabéns, você está no seu peso ideal, continue mantendo este estilo!</p>
+                        </div>
                     </div>
-                    <div class="message">Parabéns, você está no seu peso ideal, continue mantendo este estilo!</div>
-                    <hr/>
                 </div>
-            </div>
 
-            <div class="flex">
-                <div class="flex flex-colum icone-img"></div>
-                <div class="flex flex-colum">
-                    <div class="title">
-                        Sobrepeso <span class="icone icone-sobrepeso">⛔️</span>
+                <div class="py-1 bloco-item flex">
+                    <div class="bloco-q"></div>
+                    <div class="pl-1 width100">
+                        <div class="flex justify-between mb-05">
+                            <h4 class="flex">Sobrepeso <span class="icon-peso icon-peso-vermelho">&minus;</span></h4>
+                            <span class="data">12/10/2023</span>
                         </div>
-                        <div class="message">Estamos quase lá! Faça alguns ajustes para ficar no peso ideal!</div>
+                        <div>
+                            <p style="text-align: left;"> Estamos quase lá! Faça alguns ajustes para ficar no peso ideal</p>
                         </div>
+                    </div>
                 </div>
             </div>
     
