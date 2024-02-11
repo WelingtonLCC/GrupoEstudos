@@ -1,6 +1,9 @@
 *{
     padding: 0;
     margin: 0;
+}
+
+.bg-fundo{
     background-color: #2E1462;
 }
 
