@@ -203,6 +203,21 @@ flex-center{
     margin-bottom: 0.5em; /* Adiciona espaço inferior */
 }
 
-.fundo{
-    background-color: F5F5F5;
+.fundo-branco{
+    background-color: #FFFFFF;
+}
+
+.container-result {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100%;
+}
+
+.content-result {
+    width: 70%; 
+    border-radius: 5px;
+    height: 200px; 
+    min-width: 350px;
+    max-width: 600px;
 }
